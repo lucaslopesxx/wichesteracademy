@@ -156,7 +156,7 @@ body{
     border-width: 2px;
 }
 
-.dobra4__cabecalho{
+.dobra4__divisor{
     display: flex;
     flex-direction: column;
     background-color: var(--cor-extra);
@@ -164,11 +164,20 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
+    background-attachment: local;
+    background-position: center;
     width: 100%;
     height: fit-content;
     align-items: center;
     padding: 2% 0;
     position: top;
+}
+
+.dobra4__divisor__titulo{
+    font-family: var(--fonte-secundaria);
+    font-weight: 800;
+    font-size: 3.5rem;
+    color: var(--cor-secundaria);
 }
 
 .dobra4{
@@ -182,14 +191,6 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
-}
-
-
-.dobra4__cabecalho__titulo{
-    font-family: var(--fonte-secundaria);
-    font-weight: 800;
-    font-size: 3.5rem;
-    color: var(--cor-secundaria);
 }
 
 .dobra4__conteudo{
@@ -263,6 +264,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
+    background-attachment: local;
+    background-position: center;
     padding: 1%;
 }
 
@@ -285,7 +288,7 @@ body{
 }
 
 .dobra5__imagem{
-    height: 80%;
+    height: 85%;
     padding: 5% 10%;
 }
 

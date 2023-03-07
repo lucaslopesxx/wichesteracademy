@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;500;700&display=swap');
+
+:root{
+    --cor-primaria: #0e0e0e;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #089CC6;
+    --cor-preto: #000000;
+    --cor-extra: #085268;
+    --cor-hover: #252525;
+    
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+    --fonte-terciaria: 'Roboto', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--cor-primaria);
+}
+
+.dobra1{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    background-image: url('../assets/dobra1.png');
+    background-color: var(--cor-primaria);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 13%;
+    align-items: left;
+    min-height: 100vh;
+}
+
+.dobra1__logo{
+    width: 14%;
+    padding-top: 5%;
+}
+
+.dobra1__titulo{
+    font-family: var(--fonte-primaria);
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 2.9rem;
+    color: var(--cor-terciaria);
+    padding-top: 4%;
+    padding-left: 1%;
+    width: 40%;
+}
+
+.dobra1__texto{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    font-size: 1.25rem;
+    font-weight: 400;
+    width: 40%;
+    padding: 3% 0 3% 1%;
+    line-height: 1.875rem;
+}
+
+.dobra1__botao{
+    display: flex;
+    box-sizing: border-box;
+    width: fit-content;
+    max-width: 35%;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
+    padding: 0.75% 1%;
+    border-radius: 40px;
+    font-size: 1.25rem;
+    font-family: var(--fonte-terciaria);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.dobra1__botao__icone{
+    width: 7.5%;
+}
+
+.dobra2{
+    background-color: var(--cor-extra);
+    background-image: url(../assets/grunge_wall.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 3% 0;
+
+}
+
+.dobra2__titulo{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.dobra2__fotos{
+    display: flex;
+    gap: 1.5%;
+    justify-content: center;
+    padding: 3% 0 0 0;
+}
+
+.dobra2__fotos__foto{
+    width: 24.4%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: var(--cor-secundaria);
+    border-width: 1px;
+}
+
+.dobra3{
+    align-items: center;
+    background-color: var(--cor-primaria);
+    background-image: url(../assets/dobra3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.dobra3__titulo{
+    font-family: var(--fonte-secundaria);
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: var(--cor-secundaria);
+    padding: 5% 0 4% 0;
+}
+
+.dobra3__modulos{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    
+}
+
+.dobra3__modulos img{
+    width: 20%;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--cor-secundaria);
+    border-style: solid;
+    border-color: var(--cor-secundaria);
+    border-width: 2px;
+}
+
+.dobra4__cabecalho{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-extra);
+    background-image: url(../assets/grunge_wall.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    padding: 2% 0;
+    position: top;
+}
+
+.dobra4{
+    align-items: left;
+    background-image: url(../assets/dobra4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--cor-primaria);
+    background-attachment: local;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.dobra4__cabecalho__titulo{
+    font-family: var(--fonte-secundaria);
+    font-weight: 800;
+    font-size: 3.5rem;
+    color: var(--cor-secundaria);
+}
+
+.dobra4__conteudo{
+    display: flex;
+}
+
+.dobra4__conteudo__imagem{
+    height: auto;
+    width: auto;
+    max-height: 45%;
+    margin: 5% 10%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: var(--cor-secundaria);
+    border-width: 2px;
+}
+
+.dobra4__conteudo__apresentacao{
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    padding: 8% 10%;
+    width: 45%;
+}
+
+.dobra4__conteudo__apresentacao__titulo{
+    font-family: var(--fonte-secundaria);
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: var(--cor-secundaria);
+    padding: 3% 0;
+}
+
+.dobra4__conteudo__apresentacao__titulo span{
+    font-family: var(--fonte-secundaria);
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: var(--cor-terciaria);
+}
+
+.dobra4__conteudo__apresentacao__texto{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2rem;
+    padding-top: 6%;
+}
+
+.dobra4__conteudo__apresentacao__texto2{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 1.5%;
+    line-height: 2rem;
+}
+
+.dobra4__conteudo__apresentacao__texto2 span{
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 1.5%;
+    line-height: 2rem;
+}
+
+.dobra5__divisor{
+    background-color: var(--cor-extra);
+    background-image: url(../assets/grunge_wall.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    padding: 1%;
+}
+
+.dobra5{
+    height: 100vh;
+    display: flex;
+    background-image: url(../assets/dobra5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    background-position: top;
+}
+
+.dobra5__conteudo{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 45%;
+    padding: 5% 0 0 10%;
+}
+
+.dobra5__imagem{
+    height: 80%;
+    padding: 5% 10%;
+}
+
+.dobra5__conteudo__titulo{
+    font-family: var(--fonte-secundaria);
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: var(--cor-secundaria);
+    padding: 3% 0;
+}
+
+.dobra5__conteudo__texto{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2rem;
+    padding-top: 6%;
+}
